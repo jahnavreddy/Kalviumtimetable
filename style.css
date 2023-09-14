@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
+
+table{
+  border: 1px solid black ;
+  border-bottom: 1px solid red;
+  box-shadow: 1px 1px 5px black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+  
+  
+  }
+  th{
+    background-color:#D63231;
+  }
+  tr ,td, th{
+    padding: 20px;
+  }
+  tr:nth-child(odd){
+  background-color: #F3F3F3;
+  border: 1px solid lightgrey;
+  }
+  body{
+    background-color: #FBE4E4;
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: #D63231;
+  }
+  .main1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+
+  }
+  .main>img{
+    width: 200px;
+    height: auto;
+  }
+  .main1>img{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  caption{
+    /* text-align: center; */
+    /* display: flex; */
+    font-family: 'Fugaz One', cursive;
+
+  }
+  
